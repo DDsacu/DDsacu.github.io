@@ -12,5 +12,8 @@ I am a junior undergraduate student from Beijing University of Posts and Telecom
 My research focuses on Computer Vision, Efficient AI, and Machine Learning Systems (MLSys), with an emphasis on innovative model compression and acceleration techniques. I aim to design resource-efficient AI systems that bridge the gap between academic innovation and practical deployment.
 
 
-## Experiments
-- **2025.04 - Present:** Visiting student, ENCODE Lab, Westlake University.
+## 🎓 Experience
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}

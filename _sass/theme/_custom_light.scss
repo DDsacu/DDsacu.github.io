@@ -3,12 +3,12 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #5e8ca3ba; /* Warm orange */
+$primary-color              : #265272c4; /* Warm orange */
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#fff, $primary-color, 50%);
 
-$background                 : rgba(247, 240, 220, 0.498); /* Soft cream background */
+$background                 : rgba(244, 241, 233, 0.498); /* Soft cream background */
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter         : mix(#fff, $background, 90%);
 $text                       : #584c46; /* Dark brown text */
@@ -75,3 +75,57 @@ a:hover {
     --global-sidebar-link-color         : #{$link};
     --global-sidebar-link-color-hover   : #{$link-dark};
 }
+
+
+/* -- Custom Light Skin -- */
+
+/*- Colors -*/
+$background-color          : #fcfaf5; // Very light cream background
+$text-color                : #4a4137; // Dark, warm brown text
+$primary-color             : #d35400; // User-specified warm orange
+$link-color                : #d35400; // Link color same as primary
+$masthead-link-color       : $text-color;
+$masthead-link-color-hover : $primary-color;
+$navicon-color             : $text-color;
+
+$border-color              : #d5cbb8; // User-specified soft tan
+$box-shadow-color          : rgba(0, 0, 0, 0.07);
+
+$code-background-color     : #f5f2e9;
+$code-background-color-dark: $border-color;
+
+$success-color             : #859900;
+$warning-color             : #b58900;
+$danger-color              : #dc322f;
+$info-color                : #268bd2;
+
+/*- Global variables -*/
+:root {
+  --primary-color: #{$primary-color};
+  --background-color: #{$background-color};
+  --text-color: #{$text-color};
+  --link-color: #{$link-color};
+  --masthead-link-color: #{$masthead-link-color};
+  --masthead-link-color-hover: #{$masthead-link-color-hover};
+  --navicon-color: #{$navicon-color};
+  --border-color: #{$border-color};
+  --box-shadow-color: #{$box-shadow-color};
+  --code-background-color: #{$code-background-color};
+  --code-background-color-dark: #{$code-background-color-dark};
+  --form-background-color: #{$code-background-color};
+  --footer-background-color: #{$background-color};
+  --link-color-hover: #{darken($link-color, 15%)};
+  --nav-link-color: #{$text-color};
+  --nav-link-color-hover: #{darken($text-color, 15%)};
+  --button-background-color: #{$primary-color};
+  --button-text-color: #{$background-color};
+}
+
+/*- Typography -*/
+$sans-serif-font-family: "Lato", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+$serif-font-family: "Merriweather", Georgia, serif;
+
+/*- UI -*/
+$border-radius: 12px;
+$box-shadow: 0 8px 16px $box-shadow-color;
+$masthead-height: 80px;
