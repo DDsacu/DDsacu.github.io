@@ -8,7 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "custom" # Currently available options are "default", "air", "custom"
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "custom_light" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 title                    : "Zhizhen Pan's Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
