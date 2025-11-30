@@ -16,6 +16,8 @@ My research focuses on Computer Vision, Efficient AI, and Machine Learning Syste
 
 ## 📝 Publications
 
-
-## 🏭 Internships
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+## 🏭 Experiments
 - **2025.04 - Present:** Visiting student, ENCODE Lab, Westlake University.

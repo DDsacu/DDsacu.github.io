@@ -3,40 +3,40 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #007bff; /* Standard Blue */
+$primary-color              : #d35400; /* Warm orange */
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#000, $primary-color, 50%);
+$light-primary-color        : mix(#fff, $primary-color, 50%);
 
-$background                 : #ffffff; /* Pure White */
+$background                 : #fdf6e3; /* Soft cream background */
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #343a40; /* Darker Gray for better contrast */
-$link                       : #007bff; /* Standard Blue */
+$text                       : #584c46; /* Dark brown text */
+$link                       : #cb4b16; /* Slightly different warm orange for links */
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
 $footer                     : $primary-color;
 
 /* Color codes used for the site */
-$danger-color               : #dc3545;
-$info-color                 : #17a2b8;
-$notice-color               : #6c757d;
-$success-color              : #28a745;
-$warning-color              : #ffc107;
+$danger-color               : #dc322f;
+$info-color                 : #268bd2;
+$notice-color               : #93a1a1;
+$success-color              : #859900;
+$warning-color              : #b58900;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.05);
+$border-radius              : 12px;
+$box-shadow                 : 0 8px 16px rgba(0, 0, 0, 0.1);
 $global-transition          : all 0.2s ease-in-out;
-$masthead-height            : 70px;
+$masthead-height            : 80px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
 /* Typography */
-$sans-serif                 : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$serif                      : Georgia, "Times New Roman", serif;
+$sans-serif                 : "Lato", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+$serif                      : "Merriweather", Georgia, serif;
 $monospace                  : "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
@@ -56,11 +56,11 @@ a:hover {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$footer};
-    --global-border-color               : #dee2e6;
+    --global-border-color               : #d5cbb8;
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #f8f9fa;
+    --global-code-background-color      : #eee8d5;
     --global-code-text-color            : #{$darker-primary-color};
-    --global-fig-caption-color          : #6c757d;
+    --global-fig-caption-color          : #93a1a1;
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
     --global-link-color-visited         : #{$link-light};
@@ -70,7 +70,7 @@ a:hover {
     --global-warning-block              : #{$warning-color};
     --global-danger-block               : #{$danger-color};
     --global-notice-block               : #{$notice-color};
-    --global-sidebar-bg-color           : #fff;
+    --global-sidebar-bg-color           : #fdf6e3;
     --global-sidebar-text-color         : #{$text};
     --global-sidebar-link-color         : #{$link};
     --global-sidebar-link-color-hover   : #{$link-dark};
