@@ -3,12 +3,12 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #d35400; /* Warm orange */
+$primary-color              : #5e8ca3ba; /* Warm orange */
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#fff, $primary-color, 50%);
 
-$background                 : #fdf6e3; /* Soft cream background */
+$background                 : rgba(247, 240, 220, 0.498); /* Soft cream background */
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter         : mix(#fff, $background, 90%);
 $text                       : #584c46; /* Dark brown text */
