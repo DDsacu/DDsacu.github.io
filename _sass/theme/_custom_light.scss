@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Custom skin, based on the Air skin but with warmer tones and better typography
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #2c3e50; /* Deep Blue */
+$dark-primary-color         : mix(#000, $primary-color, 40%);
+$darker-primary-color       : mix(#000, $primary-color, 60%);
+$light-primary-color        : mix(#000, $primary-color, 50%);
+
+$background                 : #fdfdfd; /* Very light gray/off-white for cleaner look */
+$background-light           : mix(#fff, $background, 20%);
+$background-lighter         : mix(#fff, $background, 90%);
+$text                       : #333333; /* Softer black */
+$link                       : #3498db; /* Bright Blue */
+$link-dark                  : mix(#000, $link, 25%);
+$link-light                 : mix(#fff, $link, 25%);
+$footer                     : $primary-color;
+
+/* Color codes used for the site */
+$danger-color               : #e74c3c;
+$info-color                 : #3498db;
+$notice-color               : #95a5a6;
+$success-color              : #2ecc71;
+$warning-color              : #f1c40f;
+
+/* Other basic settings for the template */
+$border-radius              : 6px; /* Slightly more rounded */
+$box-shadow                 : 0 2px 5px rgba(0, 0, 0, 0.05); /* Softer shadow */
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 80px; /* Slightly taller header */
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Typography */
+$sans-serif                 : "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif                      : "Merriweather", Georgia, "Times New Roman", serif;
+$monospace                  : "Menlo", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+$global-font-family         : $sans-serif;
+$header-font-family         : $sans-serif;
+$caption-font-family        : $serif;
+
+/* Dark theme for the site */
+:root {
+    --global-base-color                 : #{$background};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$footer};
+    --global-border-color               : #e0e0e0;
+    --global-dark-border-color          : #{$background-light};
+    --global-code-background-color      : #f5f5f5;
+    --global-code-text-color            : #{$darker-primary-color};
+    --global-fig-caption-color          : #777;
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$link-dark};
+    --global-link-color-visited         : #{$link-light};
+    --global-masthead-link-color        : #{$text};
+    --global-text-color                 : #{$text};
+    --global-tip-block                  : #{$success-color};
+    --global-warning-block              : #{$warning-color};
+    --global-danger-block               : #{$danger-color};
+    --global-notice-block               : #{$notice-color};
+    --global-sidebar-bg-color           : #fff;
+    --global-sidebar-text-color         : #{$text};
+    --global-sidebar-link-color         : #{$link};
+    --global-sidebar-link-color-hover   : #{$link-dark};
+}

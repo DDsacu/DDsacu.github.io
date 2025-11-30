@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
+site_theme               : "custom" # Currently available options are "default", "air", "custom"
 title                    : "Zhizhen Pan's Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
