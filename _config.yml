@@ -27,7 +27,7 @@ author:
   avatar           : "profile.png"
   name             : "Zhizhen Pan (潘至真)"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  # bio              : "Short biography for the left-hand sidebar"
   location         : "Haidian Beijing"
   employer         : "Beijing University of Posts and Telecommunication"
   uri              : # URL

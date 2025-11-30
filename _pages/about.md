@@ -7,17 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I'm a junior undergraduate student from Beijing University of Posts and Telecommunications, majoring electronic information engineering. Currently, I'm a visiting student at ENCODE Lab, Westlake University, working with [Prof. Huan Wang](https://huanwang.tech/)
+I am a junior undergraduate student from Beijing University of Posts and Telecommunications, majoring electronic information engineering. Currently, I'm a visiting student at ENCODE Lab, Westlake University, working with [Prof. Huan Wang](https://huanwang.tech/)
 
 My research focuses on Computer Vision, Efficient AI, and Machine Learning Systems (MLSys), with an emphasis on innovative model compression and acceleration techniques. I aim to design resource-efficient AI systems that bridge the gap between academic innovation and practical deployment.
 
-## 🔥 News
 
-
-## 📝 Publications
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-## 🏭 Experiments
+## Experiments
 - **2025.04 - Present:** Visiting student, ENCODE Lab, Westlake University.
