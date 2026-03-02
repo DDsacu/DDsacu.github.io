@@ -1,0 +1,186 @@
+/* Custom CSS to mimic evigbyen.github.io */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+:root {
+  --bg-color: #f0f3f4;
+  --text-color: #58666e;
+  --primary-color: #27c24c;
+  --sidebar-bg: rgba(255, 255, 255, 0.85);
+  --glass-blur: blur(10px);
+}
+
+body {
+  font-family: 'Quicksand', 'Noto Serif SC', sans-serif;
+  background-image: url('https://evigbyen.github.io/figures/background_a.png'); /* Placeholder */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* App Container */
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.app-aside {
+  width: 240px;
+  background: var(--sidebar-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  overflow-y: auto;
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Content Area */
+.app-content {
+  margin-left: 240px;
+  flex: 1;
+  padding: 40px;
+  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* Sidebar Elements */
+.author-profile {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+}
+
+.img-circle:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+
+.author-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+.author-bio {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-item {
+  margin-bottom: 5px;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 15px;
+  color: #58666e;
+  text-decoration: none;
+  transition: background 0.3s;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  background-color: rgba(0,0,0,0.05);
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  background-color: rgba(0,0,0,0.1);
+  color: #000;
+}
+
+.nav-link i {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+
+/* Main Content Styling */
+.content-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+h1 { font-size: 2.5rem; border-bottom: none; }
+h2 { font-size: 1.8rem; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+
+/* Cards / Panels */
+.panel {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.panel:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app-aside {
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+  }
+  
+  .app-content {
+    margin-left: 0;
+    padding: 20px;
+  }
+  
+  /* Mobile Menu Button (needed later) */
+  .mobile-nav-toggle {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1001;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+}

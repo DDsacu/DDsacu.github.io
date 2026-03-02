@@ -1,9 +1,8 @@
 ---
 permalink: /
 title: "About me"
+layout: handsome
 author_profile: true
-sidebar:
-  nav: "sidebar"
 redirect_from: 
   - /about/
   - /about.html

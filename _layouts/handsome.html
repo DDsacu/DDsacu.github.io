@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/handsome-theme.css' | relative_url }}">
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="app">
+  <!-- Sidebar -->
+  <aside class="app-aside">
+    <div class="author-profile">
+      <a href="{{ '/' | relative_url }}">
+        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="img-circle">
+      </a>
+      <div class="author-name">{{ site.author.name }}</div>
+      <div class="author-bio">{{ site.author.bio }}</div>
+    </div>
+    
+    <nav>
+      <ul class="nav-list">
+        {% for link in site.data.navigation.sidebar %}
+        <li class="nav-item">
+          <a href="{{ link.url | relative_url }}" class="nav-link">
+            {% if link.title == "Home" %}<i class="fas fa-home"></i>{% endif %}
+            {% if link.title == "News" %}<i class="fas fa-fire"></i>{% endif %}
+            {% if link.title == "Education" %}<i class="fas fa-graduation-cap"></i>{% endif %}
+            {% if link.title == "Publications" %}<i class="fas fa-book"></i>{% endif %}
+            {% if link.title == "Experience" %}<i class="fas fa-briefcase"></i>{% endif %}
+            {{ link.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <div class="app-content">
+    <div class="content-wrapper">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
