@@ -2,6 +2,8 @@
 permalink: /
 title: "About me"
 author_profile: true
+sidebar:
+  nav: "sidebar"
 redirect_from: 
   - /about/
   - /about.html
@@ -11,20 +13,20 @@ I am a junior undergraduate student from Beijing University of Posts and Telecom
 
 My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Learning Systems (MLSys)**, with an emphasis on innovative model compression and acceleration techniques. I aim to design resource-efficient AI systems that bridge the gap between academic innovation and practical deployment.
 
-# 🔥 News
+# 🔥 News {#news}
 - *2025.04*: I joined ENCODE Lab at Westlake University as a visiting student.
 
-# 📖 Education
+# 📖 Education {#education}
 - **Beijing University of Posts and Telecommunications (BUPT)**, Beijing, China
-  - B.Eng. in Electronic Information Engineering, Sep. 2023 - Present.
+  - B.Eng. in Electronic Information Engineering, Sep. 2022 - Present.
 
-# 📝 Publications
+# 📝 Publications {#publications}
 *Coming soon...*
 
-# 🎖 Honors and Awards
+# 🎖 Honors and Awards {#honors-and-awards}
 *Coming soon...*
 
-# 💻 Experience
+# 💻 Experience {#experience}
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}

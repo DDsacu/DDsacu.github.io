@@ -129,3 +129,419 @@ $serif-font-family: "Merriweather", Georgia, serif;
 $border-radius: 12px;
 $box-shadow: 0 8px 16px $box-shadow-color;
 $masthead-height: 80px;
+
+/* ==========================================================================
+   EvigByen Style Overrides
+   ========================================================================== */
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+$sans-serif: "Quicksand", "Noto Serif SC", sans-serif !important;
+$global-font-family: $sans-serif !important;
+
+body {
+  background-image: url('https://evigbyen.github.io/figures/background_a.png'); /* Placeholder background */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Sidebar Customization */
+.sidebar {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  
+  @media screen and (min-width: 1024px) {
+    height: calc(100vh - 40px);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 260px;
+    margin: 0;
+    overflow-y: auto;
+    z-index: 100;
+  }
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  
+  &:hover {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+/* Main Content Area */
+#main {
+  @media screen and (min-width: 1024px) {
+    margin-left: 300px; /* Offset for sidebar */
+    max-width: calc(100% - 320px);
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.page {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  
+  @media screen and (min-width: 1024px) {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 40px;
+  }
+}
+
+.page__inner-wrap {
+    float: none !important;
+    width: 100% !important;
+}
+
+/* Hide Masthead on Desktop (since we use Sidebar) */
+@media screen and (min-width: 1024px) {
+  .masthead {
+    display: none;
+  }
+}
+
+/* Navigation List Style */
+.nav__list {
+    ul {
+        padding-left: 0;
+    }
+    li a {
+        display: block;
+        padding: 8px 12px;
+        border-radius: 6px;
+        transition: background 0.3s;
+        
+        &:hover {
+            background: rgba(0,0,0,0.05);
+            text-decoration: none;
+        }
+    }
+}
+
+/* ==========================================================================
+   EvigByen Style Overrides
+   ========================================================================== */
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+$sans-serif: "Quicksand", "Noto Serif SC", sans-serif !important;
+$global-font-family: $sans-serif !important;
+
+body {
+  background-image: url('https://evigbyen.github.io/figures/background_a.png'); /* Placeholder background */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Sidebar Customization */
+.sidebar {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  
+  @media screen and (min-width: 1024px) {
+    height: calc(100vh - 40px);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 260px;
+    margin: 0;
+    overflow-y: auto;
+    z-index: 100;
+  }
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  
+  &:hover {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+/* Main Content Area */
+#main {
+  @media screen and (min-width: 1024px) {
+    margin-left: 300px; /* Offset for sidebar */
+    max-width: calc(100% - 320px);
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.page {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  
+  @media screen and (min-width: 1024px) {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 40px;
+  }
+}
+
+.page__inner-wrap {
+    float: none !important;
+    width: 100% !important;
+}
+
+/* Hide Masthead on Desktop (since we use Sidebar) */
+@media screen and (min-width: 1024px) {
+  .masthead {
+    display: none;
+  }
+}
+
+/* Navigation List Style */
+.nav__list {
+    ul {
+        padding-left: 0;
+    }
+    li a {
+        display: block;
+        padding: 8px 12px;
+        border-radius: 6px;
+        transition: background 0.3s;
+        
+        &:hover {
+            background: rgba(0,0,0,0.05);
+            text-decoration: none;
+        }
+    }
+}
+
+/* ==========================================================================
+   EvigByen Style Overrides
+   ========================================================================== */
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+$sans-serif: "Quicksand", "Noto Serif SC", sans-serif !important;
+$global-font-family: $sans-serif !important;
+
+body {
+  background-image: url('https://evigbyen.github.io/figures/background_a.png'); /* Placeholder background */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Sidebar Customization */
+.sidebar {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  
+  @media screen and (min-width: 1024px) {
+    height: calc(100vh - 40px);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 260px;
+    margin: 0;
+    overflow-y: auto;
+    z-index: 100;
+  }
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  
+  &:hover {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+/* Main Content Area */
+#main {
+  @media screen and (min-width: 1024px) {
+    margin-left: 300px; /* Offset for sidebar */
+    max-width: calc(100% - 320px);
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.page {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  
+  @media screen and (min-width: 1024px) {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 40px;
+  }
+}
+
+.page__inner-wrap {
+    float: none !important;
+    width: 100% !important;
+}
+
+/* Hide Masthead on Desktop (since we use Sidebar) */
+@media screen and (min-width: 1024px) {
+  .masthead {
+    display: none;
+  }
+}
+
+/* Navigation List Style */
+.nav__list {
+    ul {
+        padding-left: 0;
+    }
+    li a {
+        display: block;
+        padding: 8px 12px;
+        border-radius: 6px;
+        transition: background 0.3s;
+        
+        &:hover {
+            background: rgba(0,0,0,0.05);
+            text-decoration: none;
+        }
+    }
+}
+
+/* ==========================================================================
+   EvigByen Style Overrides
+   ========================================================================== */
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+$sans-serif: "Quicksand", "Noto Serif SC", sans-serif !important;
+$global-font-family: $sans-serif !important;
+
+body {
+  background-image: url('https://evigbyen.github.io/figures/background_a.png'); /* Placeholder background */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Sidebar Customization */
+.sidebar {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  
+  @media screen and (min-width: 1024px) {
+    height: calc(100vh - 40px);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 260px;
+    margin: 0;
+    overflow-y: auto;
+    z-index: 100;
+  }
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  
+  &:hover {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+/* Main Content Area */
+#main {
+  @media screen and (min-width: 1024px) {
+    margin-left: 300px; /* Offset for sidebar */
+    max-width: calc(100% - 320px);
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.page {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  
+  @media screen and (min-width: 1024px) {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 40px;
+  }
+}
+
+.page__inner-wrap {
+    float: none !important;
+    width: 100% !important;
+}
+
+/* Hide Masthead on Desktop (since we use Sidebar) */
+@media screen and (min-width: 1024px) {
+  .masthead {
+    display: none;
+  }
+}
+
+/* Navigation List Style */
+.nav__list {
+    ul {
+        padding-left: 0;
+    }
+    li a {
+        display: block;
+        padding: 8px 12px;
+        border-radius: 6px;
+        transition: background 0.3s;
+        
+        &:hover {
+            background: rgba(0,0,0,0.05);
+            text-decoration: none;
+        }
+    }
+}
