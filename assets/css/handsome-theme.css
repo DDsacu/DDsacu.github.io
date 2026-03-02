@@ -11,7 +11,7 @@
 
 body {
   font-family: 'Quicksand', 'Noto Serif SC', sans-serif;
-  background-image: url('https://evigbyen.github.io/figures/background_a.png'); /* Placeholder */
+  background-image: url('/images/background.jpg'); /* Placeholder */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
