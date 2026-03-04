@@ -30,13 +30,10 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
   </div>
   <div class="pub-content">
     <div class="pub-title">[CVPR 2026] QVGGT: Post-Training Quantized Visual Geometry Grounded Transformer</div>
-    <div class="pub-authors"><i class="fas fa-user"></i><strong>Zhizhen Pan</strong>, Hesong Wang, Huan Wang</div>
+    <div class="pub-authors"><i class="fas fa-user"></i><strong> Zhizhen Pan</strong>, Hesong Wang, Huan Wang</div>
     <div class="pub-venue"><i class="fas fa-comment-alt"></i> The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
   </div>
 </div>
-
-# 🎖 Honors and Awards {#honors-and-awards}
-*Coming soon...*
 
 # 💻 Internship {#internship}
 <div class="pub-block">
