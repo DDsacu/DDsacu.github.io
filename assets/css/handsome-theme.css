@@ -147,6 +147,32 @@ body {
   object-fit: cover;
 }
 
+.logo-img {
+  object-fit: contain !important;
+  background: white;
+  padding: 5px;
+}
+
+/* Contact Icons */
+.contact-icons {
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+.contact-icons a {
+  color: var(--text-color);
+  font-size: 2rem;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-icons a:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+  display: inline-block;
+}
+
 .pub-content {
   flex: 1;
 }
