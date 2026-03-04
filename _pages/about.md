@@ -13,16 +13,17 @@ I am a junior undergraduate student from Beijing University of Posts and Telecom
 My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Learning Systems (MLSys)**, with an emphasis on innovative model compression and acceleration techniques. I aim to design resource-efficient AI systems that bridge the gap between academic innovation and practical deployment.
 
 <div class="contact-icons">
-  <a href="mailto:panzhizhen@bupt.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
+  <p>Contact info</p>
+  <a href="panzhizhen@bupt.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
   <a href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
   <a href="https://github.com/DDsacu" title="GitHub"><i class="fab fa-github"></i></a>
   <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
 </div>
 
-# 🔥 News {#news}
+# **News** {#news}
 - *2026.02*: 🎉 [CVPR'26] QVGGT is accepted by CVPR 2026!
 
-# 📝 Publications {#publications}
+# **Publications** {#publications}
 
 <div class="pub-block">
   <div class="pub-img-container">
@@ -35,7 +36,7 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
   </div>
 </div>
 
-# 💻 Internship {#internship}
+# **Internship** {#internship}
 <div class="pub-block">
   <div class="pub-img-container">
     <img src="/images/WestlakeLogo.png" alt="Westlake Logo" class="pub-img">
