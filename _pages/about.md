@@ -19,10 +19,10 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
   <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
 </div>
 
-# **News** {#news}
+## **News** {#news}
 - **2026.02**: 🎉 [CVPR'26] QVGGT is accepted by CVPR 2026!
 
-# **Publications** {#publications}
+## **Publications** {#publications}
 
 <div class="pub-block">
   <div class="pub-img-container">
@@ -33,17 +33,17 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
     <div class="pub-authors"><i class="fas fa-user"></i><strong> Zhizhen Pan</strong>, Hesong Wang, Huan Wang</div>
     <div class="pub-venue"><i class="fas fa-comment-alt"></i> The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
     <div class="pub-buttons">
-      <a href="#" class="pub-btn"><i class="ai ai-arxiv"></i> Arxiv</a>
-      <a href="#" class="pub-btn"><i class="fab fa-github"></i> GitHub</a>
+      <a href="#" class="pub-btn"><i class="ai ai-arxiv"></i> Arxiv (Currently Unavailable)</a>
+      <a href="#" class="pub-btn"><i class="fab fa-github"></i> GitHub (Currently Unavailable)</a>
     </div>
   </div>
 </div>
 
-# **Internship** {#internship}
+## **Internship** {#internship}
 <div class="pub-block">
-  <div class="pub-img-container">
-    <img src="/images/WestlakeLogo.png" alt="Westlake Logo" class="pub-img">
-    <img src="/images/ENCODELAB.png" alt="Encode Logo" class="pub-img">
+  <div class="pub-img-container vertical-stack">
+    <img src="/images/WestlakeLogo.png" alt="Westlake Logo" class="pub-img logo-img">
+    <img src="/images/ENCODELAB.png" alt="Encode Logo" class="pub-img logo-img">
   </div>
   <div class="pub-content">
     <div class="pub-title">ENCODE Lab, Westlake University</div>
