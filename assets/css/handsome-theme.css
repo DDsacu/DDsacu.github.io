@@ -137,10 +137,12 @@ body {
   border-radius: 5px;
   overflow: hidden;
   background-color: white;
+  display: flex; /* Enable flex layout */
 }
 
 .pub-img {
-  width: 100%;
+  width: auto; /* Allow flex to control width */
+  flex: 1;     /* Take available space */
   height: 100%;
   object-fit: cover;
 }

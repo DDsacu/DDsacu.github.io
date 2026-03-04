@@ -34,7 +34,8 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
 # 💻 Internship {#internship}
 <div class="pub-block">
   <div class="pub-img-container">
-    <img src="/images/WestlakeLogo.png" alt="Publication Image" class="pub-img">
+    <img src="/images/WestlakeLogo.png" alt="Westlake Logo" class="pub-img">
+    <img src="/images/ENCODELAB.png" alt="Encode Logo" class="pub-img">
   </div>
   <div class="pub-content">
     <div class="pub-title">ENCODE Lab, Westlake University</div>
