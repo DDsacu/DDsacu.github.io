@@ -15,18 +15,21 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
 # 🔥 News {#news}
 - *2025.04*: I joined ENCODE Lab at Westlake University as a visiting student.
 
-# 📖 Education {#education}
-- **Beijing University of Posts and Telecommunications (BUPT)**, Beijing, China
-  - B.Eng. in Electronic Information Engineering, Sep. 2022 - Present.
-
 # 📝 Publications {#publications}
-*Coming soon...*
+
+<div class="pub-block">
+  <div class="pub-img-container">
+    <img src="/images/publication_placeholder.jpg" alt="Publication Image" class="pub-img">
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">[AAAI 2026] The Other Mind: How Language Models Exhibit Human Temporal Cognition</div>
+    <div class="pub-authors"><i class="fas fa-user"></i> Lingyu Li, <strong>Yang Yao</strong>, Yixu Wang, Chunbo Li, Yan Teng, Yingchun Wang</div>
+    <div class="pub-venue"><i class="fas fa-comment-alt"></i> Proceedings of the AAAI Conference on Artificial Intelligence, 40</div>
+  </div>
+</div>
 
 # 🎖 Honors and Awards {#honors-and-awards}
 *Coming soon...*
 
-# 💻 Experience {#experience}
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+# 💻 Internship {#internship}
+*Coming soon...*
