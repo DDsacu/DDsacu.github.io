@@ -19,11 +19,11 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
 
 <div class="pub-block">
   <div class="pub-img-container">
-    <img src="/images/QVGGT_Teaser.jpg" alt="Publication Image" class="pub-img">
+    <img src="/images/QVGGT_Teaser.png" alt="Publication Image" class="pub-img">
   </div>
   <div class="pub-content">
     <div class="pub-title">[CVPR 2026] QVGGT: Post-Training Quantized Visual Geometry Grounded Transformer</div>
-    <div class="pub-authors"><i class="fas fa-user"></i> Lingyu Li, <strong>Zhizhen Pan</strong>, Hesong Wang, Huan Wang</div>
+    <div class="pub-authors"><i class="fas fa-user"></i><strong>Zhizhen Pan</strong>, Hesong Wang, Huan Wang</div>
     <div class="pub-venue"><i class="fas fa-comment-alt"></i> The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
   </div>
 </div>
