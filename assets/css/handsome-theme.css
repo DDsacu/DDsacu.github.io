@@ -172,7 +172,33 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1;
 }
 
-/* Cleaned up duplicate pub-buttons styles */
+.pub-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-decoration: none !important;
+  font-size: 0.85rem;
+  color: #fff !important;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.pub-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.pub-btn i {
+  margin-right: 5px;
+}
 
 .pub-img {
   width: auto; /* Allow flex to control width */
