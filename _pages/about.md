@@ -14,9 +14,9 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
 
 <div class="contact-icons">
   <a href="panzhizhen@bupt.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
-  <a href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  <!-- <a href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a> -->
   <a href="https://github.com/DDsacu" title="GitHub"><i class="fab fa-github"></i></a>
-  <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  <a href="https://www.linkedin.com/in/zhizhen-pan-115086393/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
 </div>
 
 ## **News** {#news}
