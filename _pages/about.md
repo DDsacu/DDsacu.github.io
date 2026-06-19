@@ -26,15 +26,18 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
 
 <div class="pub-block">
   <div class="pub-img-container">
-    <img src="/images/QVGGT_Teaser.png" alt="Publication Image" class="pub-img">
+    <object data="/images/QVGGT_Teaser.pdf" type="application/pdf" class="pub-pdf" aria-label="QVGGT teaser">
+      <a href="/images/QVGGT_Teaser.pdf">QVGGT teaser PDF</a>
+    </object>
   </div>
   <div class="pub-content">
     <div class="pub-title">[CVPR 2026] QVGGT: Post-Training Quantized Visual Geometry Grounded Transformer</div>
     <div class="pub-authors"><i class="fas fa-user"></i><strong> Zhizhen Pan</strong>, Hesong Wang, Huan Wang</div>
     <div class="pub-venue"><i class="fas fa-comment-alt"></i> The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
     <div class="pub-buttons">
-      <a href="#" class="pub-btn"><i class="ai ai-arxiv"></i> Arxiv (Currently Unavailable)</a>
+      <a href="https://arxiv.org/abs/2605.31124" class="pub-btn"><i class="ai ai-arxiv"></i> arXiv</a>
       <a href="#" class="pub-btn"><i class="fab fa-github"></i> GitHub (Currently Unavailable)</a>
+      <a href="https://ddsacu.github.io/QVGGT/" class="pub-btn"><i class="fas fa-globe"></i> Project</a>
     </div>
   </div>
 </div>
