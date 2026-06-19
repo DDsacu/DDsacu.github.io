@@ -270,19 +270,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-icons .cv-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 12px;
-  border: 1px solid currentColor;
-  border-radius: 5px;
+  display: inline-block;
   font-size: 1rem;
   font-weight: 700;
   vertical-align: middle;
-}
-
-.contact-icons .cv-button i {
-  font-size: 1.2rem;
 }
 
 .pub-content {
