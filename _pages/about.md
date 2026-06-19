@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a junior undergraduate student from Beijing University of Posts and Telecommunications, majoring electronic information engineering. Currently, I'm a visiting student at ENCODE Lab, Westlake University, working with [Prof. Huan Wang](https://huanwang.tech/)
+I am a junior undergraduate student from <strong>Beijing University of Posts and Telecommunications</strong>, majoring electronic information engineering. Currently, I'm a visiting student at ENCODE Lab, Westlake University, working with [Prof. Huan Wang](https://huanwang.tech/)
 
 My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Learning Systems (MLSys)**, with an emphasis on innovative model compression and acceleration techniques. I aim to design resource-efficient AI systems that bridge the gap between academic innovation and practical deployment.
 
@@ -17,6 +17,7 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
   <!-- <a href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a> -->
   <a href="https://github.com/DDsacu" title="GitHub"><i class="fab fa-github"></i></a>
   <a href="https://www.linkedin.com/in/zhizhen-pan-115086393/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  <a href="/files/CV_ZhizhenPan_2606.pdf" title="CV" class="cv-button"><i class="ai ai-cv"></i> CV</a>
 </div>
 
 ## **News** {#news}
@@ -36,7 +37,6 @@ My research focuses on **Computer Vision**, **Efficient AI**, and **Machine Lear
     <div class="pub-venue"><i class="fas fa-comment-alt"></i> The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
     <div class="pub-buttons">
       <a href="https://arxiv.org/abs/2605.31124" class="pub-btn"><i class="ai ai-arxiv"></i> arXiv</a>
-      <a href="#" class="pub-btn"><i class="fab fa-github"></i> GitHub (Currently Unavailable)</a>
       <a href="https://ddsacu.github.io/QVGGT/" class="pub-btn"><i class="fas fa-globe"></i> Project</a>
     </div>
   </div>
